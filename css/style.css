@@ -4,7 +4,30 @@
     box-sizing: border-box;
 }
 body{
-    height: 100vh;
+    height: 100%;
     background-color: #a1e061;
     background-image: linear-gradient(#a1e061,#e1fec5);
+}
+#describe, footer{
+    background: #454545;
+}
+/*Nav button*/
+
+/*NAV*/
+nav{
+    background: #232323;
+}
+nav img{
+    height: 3rem;
+}
+/*Hero-section*/
+
+/*Project-description*/
+#describe{
+    
+}
+/*Feeds-blog*/
+/*Footer*/
+footer{
+    
 }
