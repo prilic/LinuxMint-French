@@ -16,24 +16,52 @@ body{
 ul{
     list-style-type: none;
 }
+a{
+    text-decoration: none;
+}
 #describe, footer{
     background: #454545;
 }
 /*Nav button*/
 
 /*NAV*/
+#bar{
+    background: #232323;
+}
+#container{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    padding: 0.9rem 0;
+    margin: auto;
+}
+#container img{
+    height: 3rem;
+}
+
 nav{
     background: #232323;
+}
+nav a{
+    color: #E3E3E3;
 }
 nav ul{
     text-align: right;
 }
-nav img{
-    height: 3rem;
+nav ul li{
+    font-size: 1.2rem;
+    padding: 1rem 1.2rem;
 }
+nav ul li:hover{
+    background-color: #92B372;
+}
+
 /*Hero-section*/
 
 /*Project-description*/
+h2:hover{
+    background-color: #454545;
+}
 #describe{
     
 }
