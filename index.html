@@ -10,51 +10,71 @@
     <div id="bar">
         <div id="container">
             <img src="img/LM-logo.png" alt="Logo de linux mint">
-            <img src="img/icons/menu.svg" alt="menu icon" class="menu">
+            <div id=navBtn>
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>   
+            </div>
         </div>  
     </div>
-        <nav>
+        <nav id="menu">
+            <div >
             <ul>
                 <li><a href="#">Accueil</a></li>
                 <li><a href="#">Téléchargement</a></li>
                 <li><a href="#">Projet</a></li>
                 <li><a href="#">A propos</a></li>
                 <li><a href="#">Liens</a></li>
-            </ul>
+            </ul>                
+            </div>
+
         </nav>  
     
     <section id='hero'>
         <h1>Linux Mint</h1>
         <p>La liberté s'accompagne d'élégance</p>
         <ul>
-            <li>En savoir plus</li>
-            <li>Téléchargement</li>
+            <li class="btn"><a href="#">En savoir plus</a></li>
+            <li class="btn"><a href="#">Téléchargement</a></li>
         </ul>
     </section>
-
+    <div id="showcase"> <img src="img/captures/Cinamon/c1.png"> </div>
     <section id='describe'>
         <h2>Qu'est-ce que Linux Mint exactement ?</h2>
         <p>Le but de Linux Mint est de produire un système d’exploitation moderne, élégant et confortable qui est à la fois puissant et facile à utiliser.</p>
         <p>Linux Mint est l’une des distributions Linux de bureau les plus populaires et est utilisé par des millions de personnes.</p>
+        
         <div id="grid">
-            <div>
+            <div class="avantages">
                 <img src="img/icons/box-open-solid.svg" alt="box-icon">
-                <p>Il fonctionne out of the box, avec un support multimédia complet et est extrêmement facile à utiliser.</p>
+                <div class="description">
+                    <p>Il fonctionne out of the box, avec un support multimédia complet et est extrêmement facile à utiliser.</p>   
+                </div> 
             </div>
-            <div>
+
+            <div class="avantages">
                 <img src="img/icons/users-solid.svg" alt="user-icon">
-                <p>C’est à la fois gratuit et Open Source.</p>
-                <p>Axé sur la communauté. Les utilisateurs sont encouragés à envoyer des commentaires au projet afin que leurs idées puissent être utilisées pour améliorer Linux Mint.</p>
+                <div class="description">
+                    <p>C’est à la fois gratuit et Open Source.</p>
+                    <p>Axé sur la communauté. Les utilisateurs sont encouragés à envoyer des commentaires au projet afin que leurs idées puissent être utilisées pour améliorer Linux Mint.</p>  
+                </div>
             </div>
-            <div>
+
+            <div class="avantages">
                 <img src="img/icons/linux-brands.svg" alt="linux-icon">
-                <p>Basé sur Debian et Ubuntu, il fournit environ 30000 paquets et l’un des meilleurs gestionnaires de logiciels.</p>
+                <div class="description">
+                    <p>Basé sur Debian et Ubuntu, il fournit environ 30000 paquets et l’un des meilleurs gestionnaires de logiciels.</p>
+                </div>
             </div>
-            <div>
+
+            <div class="avantages">
                 <img src="img/icons/shield-alt-solid.svg" alt="shield-icon">
-                <p>Il est sûr et fiable. Grâce à un gestionnaire de mise à jour unique et la robustesse de son architecture Linux, il requière que peu de maintenance (pas d'anti-virus,pas de spyware,etc).</p>
+                <div class="description">
+                    <p>Il est sûr et fiable. Grâce à un gestionnaire de mise à jour unique et la robustesse de son architecture Linux, il requière que peu de maintenance (pas d'anti-virus,pas de spyware,etc).</p>
+                </div>
             </div>
         </div>
+
     </section>
 
     <section id="blog-post">
@@ -62,20 +82,20 @@
             <h3>Monthly News – August 2020</h3>
             <p>This article was posted on Tue, 01 Sep 2020 13:24:06 +0000</p>
             <p>Before we start with the news, I’d like to thank you for your donations and for your help. Many thanks to everyone involved in supporting us. Backports and fixes Many bug fixes were backported to Linux Mint 19.3. Three of them are quite significant: cinnamon-session: Don’t let unresponsive programs delay the shutdown. muffin: Fixed crash […]</p>
-            <span>Lire plus</span>
+            <span class="btn">Lire plus</span>
         </div>
         <div>
             <h3>Monthly News – August 2020</h3>
             <p>This article was posted on Tue, 01 Sep 2020 13:24:06 +0000</p>
             <p>Before we start with the news, I’d like to thank you for your donations and for your help. Many thanks to everyone involved in supporting us. Backports and fixes Many bug fixes were backported to Linux Mint 19.3. Three of them are quite significant: cinnamon-session: Don’t let unresponsive programs delay the shutdown. muffin: Fixed crash […]</p>
-            <span>Lire plus</span>
+            <span class="btn">Lire plus</span>
         </div>
     </section>
 
     <footer>
-        <p>Linux Mint is free of charge (thanks to your donations and adverts on the website) and we hope you'll enjoy it.</p>
-        <p>Some of the packages we distribute are under the GPL. If you want to access their source code you can use the apt-get source command. If you can't find what you're looking for please write to root@linuxmint.com and we'll provide the source to you.</p>
-        <p>inux Mint is copyrighted 2006 and trademarked through the Linux Mark Institute. All rights reserved. Linux® is the registered trademark of Linus Torvalds in the U.S. and other countries.</p>
+        <p>Linux Mint est gratuit (grâce aux dons de utilisateur).</p>
+        <p>Linux Mint est sous copyright depuis 2006 et est une marque déposée par le biais de Linux Mark Institute. Tous droits réservés. Linux® est une marque déposée de Linus Torvalds aux États-Unis et dans d’autres pays.</p>
     </footer>
+    <script src="js/main.js"></script>
 </body>
 </html>
