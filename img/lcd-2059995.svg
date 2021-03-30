@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="246.96mm" height="187.54mm" clip-rule="evenodd" fill-rule="evenodd" image-rendering="optimizeQuality" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" version="1.1" viewBox="0 0 24696 18754" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <style type="text/css">.fil1 {fill:black} .fil3 {fill:#333333} .fil6 {fill:url(#f)} .fil2 {fill:url(#g)} .fil4 {fill:url(#h)} .fil5 {fill:url(#i)} .fil0 {fill:url(#j)}</style>
+  <linearGradient id="f" x1="11289" x2="13406" y1="16516" y2="16516" gradientUnits="userSpaceOnUse">
+   <stop offset="0"/>
+   <stop stop-color="#212121" offset=".47059"/>
+   <stop stop-color="#080808" offset="1"/>
+  </linearGradient>
+  <linearGradient id="g" x1="9056.2" x2="25250" y1="13013" y2="2377.9" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#333131" offset="0"/>
+   <stop offset="1"/>
+  </linearGradient>
+  <linearGradient id="h" x1="12348" x2="12348" y1="703.29" y2="13788" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#5C5C5C" offset="0"/>
+   <stop stop-color="#2E2E2E" offset=".5098"/>
+   <stop offset="1"/>
+  </linearGradient>
+  <linearGradient id="i" x1="12348" x2="12348" y1="14550" y2="15399" gradientUnits="userSpaceOnUse">
+   <stop offset="0"/>
+   <stop stop-color="#141313" offset=".45882"/>
+   <stop offset="1"/>
+  </linearGradient>
+  <linearGradient id="j" x1="12348" x2="12348" y1="18754" y2="16984" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#A8A8A8" offset="0"/>
+   <stop offset="1"/>
+  </linearGradient>
+ </defs>
+ <path class="fil0" d="m7340 16985h10016l411 1494v275h-10838v-267l411-1502z"/>
+ <polygon class="fil1" points="17767 18487 17767 18754 6929 18754 6929 18487"/>
+ <polygon class="fil1" points="11289 14232 13406 14232 13406 17636 11289 17636"/>
+ <path class="fil1" d="m608 0h23480c334 0 608 273 608 608v13993c0 334-274 596-608 608-7827 275-15654 231-23480 0-334-10-608-274-608-608v-13993c0-335 273-608 608-608z"/>
+ <path class="fil2" d="m15165 15391c-3376-2698-5555-6958-5555-11753 0-1255 150-2474 431-3638h14047c334 0 608 273 608 608v13993c0 334-274 596-608 608-2974 104-5949 163-8923 182z"/>
+ <path class="fil3" d="m814 676h23068c57 0 104 47 104 105v12929c0 58-47 105-104 105h-23068c-57 0-104-47-104-105v-12929c0-58 47-105 104-105z"/>
+ <path class="fil4" d="m814 703c-43 0-78 35-78 78v12929c0 43 35 78 78 78h23068c42 0 77-35 77-78v-12929c0-43-35-78-77-78h-23068z"/>
+ <path class="fil5" d="m12348 14549c4569 0 8803 123 12277 333-102 190-305 318-537 327-7827 275-15654 231-23480 0-233-7-436-137-538-327 3475-210 7709-333 12278-333z"/>
+ <path class="fil6" d="m13406 15398v2238h-2117v-2241l33 1h232l33 1h99l240 1h455c100 1 201 1 302 1h459c88 0 176-1 264-1z"/>
+</svg>
