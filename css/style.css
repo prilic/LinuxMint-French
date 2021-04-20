@@ -119,16 +119,32 @@ nav ul li:hover{
 }
 /*Showcase*/
 #showcase{
-    background: url(../img/lcd-2059995.svg) center no-repeat;
-    width: 100%;
+    margin: 2rem auto;
+    width: 700px;
+    margin-bottom: -300px;
 }
-#showcase img{
-    width: 50vw;
-    margin: 0 auto;
+#imageShowcase{
+    position: relative;
+}
+#imageShowcase img{
+    position: relative;
+    width: 700px;
+}
+#innerScreen{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    width: 658px;
+    overflow: hidden;
+    height: 370px;
+}
+#innerScreen img{
+    width: 660px;
 }
 /*Project-description*/
 #describe h2{
     padding:0.6rem;
+    padding-top: 20%;
 }
 #describe{
     padding: 1rem;
@@ -136,6 +152,7 @@ nav ul li:hover{
 }
 #grid{
     padding-top: 1rem;
+    margin: auto 3.5rem;
 }
 .avantages{
     background-color: #6c6c6c;
@@ -151,6 +168,9 @@ nav ul li:hover{
     padding: 1rem 0.5rem;
 }
 /*Feeds-blog*/
+#blog-post{
+    margin: auto 4.5rem;
+}
 #blog-post div{
     background-color: #8bb158;
     text-align: center;
@@ -182,7 +202,7 @@ footer{
     nav{
         display:flex;
         width: 100%;
-        justify-content: center;
+        justify-content:space-around;
     }
     nav ul {
         display: flex;
